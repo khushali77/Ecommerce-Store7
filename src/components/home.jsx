@@ -26,7 +26,7 @@ function Home(){
         {/* <p><Button variant="primary">Learn more</Button></p> */}
     </Jumbotron>
     <div className="DisplayItems">
-    {ProductList.map(item=>(<li key={item.id}><DisplayCard data={item}/></li>))}
+        {ProductList.map(item=>(<li key={item.id}><DisplayCard data={item}/></li>))}
     </div>
     </>
     );

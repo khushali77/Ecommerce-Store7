@@ -36,15 +36,18 @@
 }
 
 .jumbotron{
-  margin-left: 15%;
+  height: 350px;
   text-align: center;
-  height: 20em;
-  width: 70%;
 }
 
 .DisplayItems{
-  margin-left: 15%;
+  margin-left: 17%;
   width: 70%;
   display: grid;
-  grid-template-columns: (auto-fill, minmax(200px, 1fr))
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-row-gap: 5%;
+}
+
+.DisplayItems li{
+  list-style: none;
 }
