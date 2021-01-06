@@ -34,3 +34,17 @@
   color: black;
   background-color: rgb(233, 232, 232);
 }
+
+.jumbotron{
+  margin-left: 15%;
+  text-align: center;
+  height: 20em;
+  width: 70%;
+}
+
+.DisplayItems{
+  margin-left: 15%;
+  width: 70%;
+  display: grid;
+  grid-template-columns: (auto-fill, minmax(200px, 1fr))
+}
