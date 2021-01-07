@@ -1,5 +1,7 @@
 .navbar{
   background-color: #0069d9;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
 }
 
 .navbar li{
@@ -13,6 +15,11 @@
 
 .brand{
   color: aliceblue;
+}
+
+.admin{
+  color: aliceblue;
+  justify-self: center;
 }
 
 .btn-primary{
@@ -55,4 +62,30 @@
 .itemimg{
   align-self: center;
   width: 60%;
+}
+
+.backend{
+  display: grid;
+  justify-items: center;
+  width:100%;
+  grid-row-gap: 15px;
+}
+
+.heading-1{
+  font-weight: bold;
+}
+
+.heading-2{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.title{
+  background-color: rgb(187, 187, 187);
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  justify-items: center;
+  padding-top: 1%;
+  border-radius: 5px;
+  font-weight: 600;
 }

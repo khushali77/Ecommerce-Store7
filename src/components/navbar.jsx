@@ -7,7 +7,8 @@ function Navbar(){
     return(
     <>
     <ul className="navbar">
-        <li><Link to='/'className="brand">Ecommerce</Link></li>
+        <li><Link to='/'className="brand">EcommerceX</Link></li>
+        <li><Link to='/backend'className="admin">Admin</Link></li>
         <li>
             <DropdownButton menuAlign="right" title="Khushali Shah" id="dropdown-menu-align-right" className="dropdown">
             <Dropdown.Item eventKey="1"><Link to='/profile'>My Profile</Link></Dropdown.Item>
