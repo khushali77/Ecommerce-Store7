@@ -5,22 +5,24 @@ import {Link} from "react-router-dom";
 function Backend(){
     return(
         <div className="backend">
-            <h3 className="heading-1">EcommerceX Back Office</h3>
-            <div className="heading-2">
-                <h4>Inventory items</h4>
+            <div className="title">
+                <h4>Inventory Items</h4>
                 <Link to='/backend/add'><Button variant="success" className="additembtn">Add Item</Button>{' '}</Link>
             </div>
-            <div className="title">
-                <p>id</p>
-                <p>Item Name</p>
-                <p>Description</p>
-                <p>Category</p>
-                <p>Price</p>
-                <p>Units</p>
-                <p>Active</p>
-            </div>
+            <table className="itemstable">
+                <tr>
+                    <th>Id</th>
+                    <th>Item Name</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Units</th>
+                    <th>Status</th>
+                </tr>
+            </table>
         </div>
     );
 }
 
 export default Backend;
+

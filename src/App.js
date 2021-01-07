@@ -8,6 +8,7 @@ import Settings from "components/pages/settings";
 import MyCart from "components/pages/mycart";
 import MyOrders from "components/pages/myorders";
 import Backend from "components/pages/backend";
+import AddItem from "components/pages/additem";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
      <Route exact path='/mycart' component={MyCart}/>
      <Route exact path='/myorders' component={MyOrders}/>
      <Route exact path='/backend' component={Backend}/>
+     <Route exact path='/backend/add' component={AddItem}/>
      </BrowserRouter>
     </div>
   );
