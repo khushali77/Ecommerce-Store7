@@ -51,3 +51,8 @@
 .DisplayItems li{
   list-style: none;
 }
+
+.itemimg{
+  align-self: center;
+  width: 60%;
+}

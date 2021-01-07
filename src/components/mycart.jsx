@@ -2,7 +2,7 @@ import React from "react";
 
 function MyCart(){
     return(
-        <p>This is your cart's page</p>
+        <p>Following are the items of yur cart: </p>
     );
 }
 
