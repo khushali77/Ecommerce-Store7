@@ -10,6 +10,7 @@ function Backend(){
                 <Link to='/backend/add'><Button variant="success" className="additembtn">Add Item</Button>{' '}</Link>
             </div>
             <table className="itemstable">
+                <tbody>
                 <tr>
                     <th>Id</th>
                     <th>Item Name</th>
@@ -19,6 +20,7 @@ function Backend(){
                     <th>Units</th>
                     <th>Status</th>
                 </tr>
+                </tbody>
             </table>
         </div>
     );

@@ -92,26 +92,10 @@ table, th, td {
   margin-top: 1%;
 }
 
-form{
-  margin-left: 15%;
-}
-
 .additem h3{
   text-align: center;
 }
 
-.additemform input{
-  margin-top: -100px;
-  width: 80%;
-  border-radius: 5px;
-  border: 1px solid rgb(161, 161, 161);
-  padding: 0.5%;
-}
-
-.additemform h5{
-  margin:1%;
-}
-
-.submitbtn{
-  margin-bottom: 2%;
+.additemform{
+  margin: 0 5%;
 }
